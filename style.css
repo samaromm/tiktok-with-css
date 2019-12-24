@@ -1,0 +1,106 @@
+body{
+    width:100%;
+}
+
+#black{
+    background-color: #000;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    
+}
+#forLists ul li{
+    float:left;
+    padding:0 10px;
+    list-style: none;
+    font-size:25px;
+    
+}
+
+#forLists a{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration-line: underline;
+}
+
+.slogan{
+    text-align:center;
+}
+
+.slogan h2{
+    font-size:60px;
+    margin-bottom: 2px;
+}
+
+.slogan p{
+    font-size:25px;
+    margin-top:0px;
+}
+
+.video img{
+    width:100%;
+}
+
+footer{
+    background-color: #000;
+    color:white;
+    margin:0px;
+}
+
+.download img:not(#form){
+    width:200px;
+}
+
+.download h2{
+    font-size:30px;
+}
+
+#form{
+    width:600px;
+}
+
+.download{
+    display:flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+#lists{
+    display:flex;
+    justify-content: flex-start;
+
+}
+
+#lists img{
+    padding:40px 0 0 100px;
+}
+
+#lists ul{
+   padding:0px 50px;
+}
+
+
+footer a{
+    color:white;
+    text-decoration: none;
+}
+
+footer ul{
+    list-style: none;
+}
+
+.copyRights {
+    display:flex;
+    justify-content: space-between;
+    margin:0px 100px;
+}
+
+#eng{
+    border:2px #fff solid;
+    padding:5px 40px;
+}
